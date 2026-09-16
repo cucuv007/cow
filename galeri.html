@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arşiv Galerisi | Uzay İneği Araştırma Enstitüsü</title>
+  <meta name="description" content="Saha kayıtları, arşiv görselleri ve tanık portrelerinden oluşan galeri koleksiyonu.">
+  <meta property="og:title" content="Arşiv Galerisi">
+  <meta property="og:description" content="Uzay İneği Araştırma Enstitüsü görsel arşivi ve tanık portreleri.">
+  <meta property="og:image" content="images/hero.jpg">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand" aria-label="Ana sayfaya git"><img src="images/logo.svg" alt="Uzay İneği Araştırma Enstitüsü logosu" loading="lazy"><div><div class="brand-title">UZAY İNEĞİ ARAŞTIRMA ENSTİTÜSÜ</div><div class="brand-sub">Dünya Sadece Başlangıçtır</div></div></a>
+    <nav class="main-nav" data-main-nav aria-label="Ana menü"><a class="nav-link" href="index.html">Ana Sayfa</a><a class="nav-link" href="kanitlar.html">Kanıtlar</a><a class="nav-link" href="roportajlar.html">Röportajlar</a><a class="nav-link" href="bilimsel.html">Bilimsel Açıklamalar</a><a class="nav-link" href="galeri.html">Galeri</a><a class="nav-link" href="hakkimizda.html">Hakkımızda</a></nav>
+    <div class="header-actions"><a class="btn btn-primary" href="hakkimizda.html#iletisim">İletişim</a><button class="theme-toggle" data-theme-toggle aria-label="Açık temaya geç">🌙</button><button class="hamburger" data-menu-toggle aria-label="Menüyü aç/kapat" aria-expanded="false">☰</button></div>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container reveal">
+      <h1>Arşiv Galerisi</h1>
+      <p>Enstitünün görsel arşivinde yer alan saha kayıtları, tarihsel belgeler ve tanık portreleri burada bir araya getirilmiştir. Görselleri tıklayarak büyütebilir, klavye oklarıyla gezinebilirsiniz.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="filter-row reveal" data-filter-group data-filter-target="gallery">
+        <button class="filter-chip active" data-filter="all">Tümü</button>
+        <button class="filter-chip" data-filter="saha">Saha</button>
+        <button class="filter-chip" data-filter="arsiv">Arşiv</button>
+        <button class="filter-chip" data-filter="portre">Portre</button>
+      </div>
+
+      <h2 class="section-title reveal">Saha ve Arşiv Kayıtları</h2>
+      <div class="gallery-grid" style="margin-top:12px;">
+        <figure class="gallery-item reveal" data-gallery data-filter-item="gallery" data-tags="saha" data-full="images/hero.jpg" data-caption="2026 – İç Anadolu, gece saha taraması"><img src="images/hero.jpg" alt="Gece tarlasında inek ve ışık kümesi" loading="lazy"><figcaption class="gallery-caption">2026 – İç Anadolu, gece saha taraması</figcaption></figure>
+        <figure class="gallery-item reveal" data-gallery data-filter-item="gallery" data-tags="saha" data-full="images/dna.jpg" data-caption="2021 – Ankara Biyo-Lab, dizilim ekranı"><img src="images/dna.jpg" alt="Laboratuvar DNA ekranı" loading="lazy"><figcaption class="gallery-caption">2021 – Ankara Biyo-Lab, dizilim ekranı</figcaption></figure>
+        <figure class="gallery-item reveal" data-gallery data-filter-item="gallery" data-tags="saha" data-full="images/cropcircle.jpg" data-caption="2019 – Konya, tarla deseni saha çalışması"><img src="images/cropcircle.jpg" alt="Konya tarla deseni" loading="lazy"><figcaption class="gallery-caption">2019 – Konya, tarla deseni saha çalışması</figcaption></figure>
+        <figure class="gallery-item reveal" data-gallery data-filter-item="gallery" data-tags="saha" data-full="images/abduction.jpg" data-caption="2016 – Gece kaçırılma ışık kaydı"><img src="images/abduction.jpg" alt="Gece ışık huzmesinde inek silueti" loading="lazy"><figcaption class="gallery-caption">2016 – Gece kaçırılma ışık kaydı</figcaption></figure>
+        <figure class="gallery-item reveal" data-gallery data-filter-item="gallery" data-tags="saha" data-full="images/astronot_inek.png" data-caption="2024 – Simülasyon birimi, astronot inek konsepti"><img src="images/astronot_inek.png" alt="Astronot kıyafetli inek" loading="lazy"><figcaption class="gallery-caption">2024 – Simülasyon birimi, astronot inek konsepti</figcaption></figure>
+        <figure class="gallery-item reveal" data-gallery data-filter-item="gallery" data-tags="saha" data-full="images/radar.jpg" data-caption="2024 – Eskişehir radar sinyali"><img src="images/radar.jpg" alt="Radar izleme ekranı" loading="lazy"><figcaption class="gallery-caption">2024 – Eskişehir radar sinyali</figcaption></figure>
+        <figure class="gallery-item reveal" data-gallery data-filter-item="gallery" data-tags="arsiv" data-full="images/arsiv_1978.jpg" data-caption="1978 – İzmir çevresi, arşiv kaydı"><span class="archive-tag">ARŞİV</span><img src="images/arsiv_1978.jpg" alt="1978 tarihli arşiv fotoğrafı" loading="lazy"><figcaption class="gallery-caption">1978 – İzmir çevresi, arşiv kaydı</figcaption></figure>
+      </div>
+
+      <h2 class="section-title reveal" style="margin-top:34px;">Tanık Portreleri</h2>
+      <div class="portrait-grid" style="margin-top:12px;">
+        <figure class="gallery-item reveal" data-gallery data-filter-item="gallery" data-tags="portre" data-full="images/tanik_huseyin.jpg" data-caption="2023 – Konya, tanık görüşmesi"><img src="images/tanik_huseyin.jpg" alt="Hüseyin K. portre fotoğrafı" loading="lazy"><figcaption class="gallery-caption">Hüseyin K. · Konya</figcaption></figure>
+        <figure class="gallery-item reveal" data-gallery data-filter-item="gallery" data-tags="portre" data-full="images/tanik_elif.jpg" data-caption="2024 – İstanbul, laboratuvar röportajı"><img src="images/tanik_elif.jpg" alt="Dr. Elif Yılmaz portre fotoğrafı" loading="lazy"><figcaption class="gallery-caption">Dr. Elif Yılmaz · İstanbul</figcaption></figure>
+        <figure class="gallery-item reveal" data-gallery data-filter-item="gallery" data-tags="portre" data-full="images/tanik_mehmet.jpg" data-caption="2022 – Ankara, çiftlik kaydı"><img src="images/tanik_mehmet.jpg" alt="Mehmet A. portre fotoğrafı" loading="lazy"><figcaption class="gallery-caption">Mehmet A. · Ankara</figcaption></figure>
+        <figure class="gallery-item reveal" data-gallery data-filter-item="gallery" data-tags="portre" data-full="images/tanik_cemal.jpg" data-caption="2021 – Eskişehir, radar tanığı"><img src="images/tanik_cemal.jpg" alt="Cemal T. portre fotoğrafı" loading="lazy"><figcaption class="gallery-caption">Cemal T. · Eskişehir</figcaption></figure>
+        <figure class="gallery-item reveal" data-gallery data-filter-item="gallery" data-tags="portre" data-full="images/tanik_ayse.jpg" data-caption="2025 – İzmir, veteriner saha notları"><img src="images/tanik_ayse.jpg" alt="Ayşe Y. portre fotoğrafı" loading="lazy"><figcaption class="gallery-caption">Ayşe Y. · İzmir</figcaption></figure>
+        <figure class="gallery-item reveal" data-gallery data-filter-item="gallery" data-tags="portre" data-full="images/tanik_burak.jpg" data-caption="2025 – Bursa, drone kayıt birimi"><img src="images/tanik_burak.jpg" alt="Burak D. portre fotoğrafı" loading="lazy"><figcaption class="gallery-caption">Burak D. · Bursa</figcaption></figure>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <h4>Enstitü Hakkında</h4>
+      <p>Uzay İneği Araştırma Enstitüsü, bovin kökenli dünya dışı temas olasılığını disiplinler arası yöntemlerle inceleyen bağımsız bir araştırma girişimidir.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Hızlı Bağlantılar</h4>
+      <ul>
+        <li><a href="kanitlar.html">Kanıt Arşivi</a></li>
+        <li><a href="roportajlar.html">Tanık Röportajları</a></li>
+        <li><a href="bilimsel.html">Bilimsel Açıklamalar</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>İletişim</h4>
+      <ul>
+        <li>📍 Yıldızköy Mah. Samanyolu Cad. No:73</li>
+        <li>📞 +90 (312) 555 73 73</li>
+        <li>✉️ bilgi@uzayinegienstitusu.org</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Çalışma Saatleri</h4>
+      <ul>
+        <li>Pzt–Cum: 09.00–18.00</li>
+        <li>Gece Gözlem Ekibi: 24/7</li>
+        <li><a href="hakkimizda.html#iletisim">İhbar Formu</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">Bu site tamamen inek amaçlıdır ; gerçek kişi ve kurumlarla ilgisi yoktur ama ineklerle vardır.</div>
+</footer>
+
+<div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Galeri görsel önizleme">
+  <div class="lightbox-inner">
+    <img class="lightbox-img" src="" alt="Galeri büyük görsel">
+    <div class="lightbox-info">
+      <div data-lightbox-caption></div>
+      <div class="lightbox-nav">
+        <button class="lightbox-btn" data-lightbox-prev aria-label="Önceki görsel">←</button>
+        <button class="lightbox-btn" data-lightbox-next aria-label="Sonraki görsel">→</button>
+        <button class="lightbox-btn" data-lightbox-close aria-label="Görseli kapat">✕</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
